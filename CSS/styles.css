@@ -1,0 +1,554 @@
+/* Global CSS Section */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: visible;
+}
+
+
+header {
+  z-index:1000;
+  top:5px;
+  position: sticky;
+}
+
+
+iframe {
+  height: 400px; width:1275px;
+}
+
+
+a {
+  color: inherit;
+  cursor: url("../Images/wand-link.png") 16 16, auto;
+}
+
+
+h1{
+  font-family: Old English Text MT;
+  color: antiquewhite;
+  text-shadow: 0 0 5px #ff69b4, 0 0 10px grey, 0 0 20px floralwhite, 0 0 40px antiquewhite;
+  font-size: 40px;
+  text-align: center;
+}
+
+
+h2 {
+  font-family: Old English Text MT;
+  color: antiquewhite;
+  text-shadow: 0 0 5px #ff69b4, 0 0 10px grey, 0 0 20px floralwhite, 0 0 40px antiquewhite;
+}
+
+
+h3 {
+  font-family: Copperplate Gothic Light;
+  color: antiquewhite;
+  text-shadow: 0 0 5px #ff69b4, 0 0 10px grey, 0 0 20px floralwhite, 0 0 40px antiquewhite;
+}
+
+
+/* Global Class Section */
+
+.mainspace {
+  margin-top: 120px;
+}
+
+
+.blur {
+  backdrop-filter: blur(2.5px);
+  padding: 20px;
+}
+
+
+.cursor {
+  cursor: url("../Images/wand.png") 16 16, auto;
+}
+
+
+.visibility {
+  font-size: 30px;
+}
+
+
+.Gabriola {
+  font-family: Gabriola;
+  color: antiquewhite;
+  font-size: 20px;
+}
+
+
+.Copper {
+  font-family: Copperplate Gothic Light;
+  color: antiquewhite;
+}
+
+
+.logo {
+  width:150px;
+  height: 150px;
+  background-image: url("../Images/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: center;
+  padding-right: 2px;
+  margin-top: -50px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+
+.button-style {
+  padding: 10px 20px;
+  border-radius: 1000px;
+  font-family: "Copperplate Gothic Light";
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  cursor: url("../Images/wand-link.png") 16 16, auto;
+  transition: transform 0.2s, box-shadow 0.2s; height: 40px;
+}
+
+
+.button-style:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+}
+
+
+.page-on {
+  color: rgb(153, 77, 0);
+  background-color: antiquewhite;
+}
+
+
+.page-off {
+  color: antiquewhite;
+  background-color: rgb(153, 77, 0);
+}
+
+
+/* Homepage.html Section */
+
+
+.home {
+  background-image: url("../Images/scales.png");
+ 	background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  z-index: 0;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+
+.banner {
+  width:100%;
+  height: 1000px;
+  background-image: url("../Images/banner.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -170px;
+}
+
+
+.adjustment-top {
+  margin-top: -170px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.adjustment-bottom {
+  margin-left: 10px;
+  margin-right: 10px;
+  border:none;
+  height:1px;
+  background-color: antiquewhite;
+}
+
+
+/* Contact.html Section*/
+
+.contact-heading {
+  font-family: Old English Text MT;
+  color: antiquewhite;
+  font-size: 40px;
+  text-shadow: 0 0 5px black, 0 0 10px navy, 0 0 20px deeppink, 0 0 40px turquoise;
+  text-align: center;
+}
+
+.contact-background {
+  background-image: url("../Images/skies.png");
+ 	background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  z-index: 0;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+
+.contact-header {
+  text-align: center;
+  font-family: Old English Text MT;
+  color: antiquewhite;
+	text-shadow: 0 0 5px #ff69b4, 0 0 10px grey, 0 0 20px floralwhite, 0 0 40px antiquewhite;
+}
+
+
+.contact-list {
+  font-family: Gabriola;
+  color: antiquewhite;
+  font-size: 20px;
+  padding-left: -20px;
+  margin: 0;
+  line-height: 1.2px;
+}
+
+
+.contact-card {
+  position: relative;
+  padding: 20px;
+  margin: 80px;
+  background-image: url("../Images/skyframe.png");
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.contact-card:hover {
+  box-shadow: 0 0 500px black;
+  transform: translateY(-15px);
+}
+
+
+.contact-description {
+  font-family: Copperplate Gothic Light;
+  color: antiquewhite;
+  margin-left: 0px;
+  margin-top: 40px;
+  font-size: 14px;
+  text-shadow: 0 0 5px black, 0 0 10px navy, 0 0 20px deeppink, 0 0 40px turquoise;
+  line-height: 20px;
+}
+
+
+.map-frame {
+  padding: 20px;
+  margin: 80px;
+  border:0;
+  background-image: url("../Images/skyframe.png");
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.map-frame:hover {
+  box-shadow: 0 0 500px black;
+  transform: translateY(-15px);
+}
+
+
+.map-adjustment {
+  margin-bottom: -100px;
+  margin-top: -100px;
+}
+
+
+.form-container {
+  background-image: url("../Images/skyframe.png");
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 400px;
+  padding-right: 50px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+
+.form-container:hover {
+  box-shadow: 0 0 500px black;
+  transform: translateY(-15px);
+}
+
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  }
+
+input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
+
+textarea {
+  height: 120px;
+  resize: vertical;
+    }
+
+.form-button {
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-family: "Copperplate Gothic Light";
+  font-size: 15px;
+  text-align: center;
+  border: none;
+  cursor: url("../Images/wand-link.png") 16 16, auto;
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 40px;
+  color:antiquewhite;
+}
+
+
+.form-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+}
+
+
+.form-header {
+  font-family: Old English Text MT;
+  color: antiquewhite;
+  font-size: 25px;
+  text-shadow: 0 0 5px black, 0 0 10px navy, 0 0 20px deeppink, 0 0 40px turquoise;
+}
+
+
+.form-middle {
+  display: flex;
+  justify-content: center;
+}
+
+
+.contact-table {
+  font-family: Copperplate Gothic Light;
+  color: antiquewhite;
+  margin-left: 0px;
+  font-size: 14px;
+  text-shadow: 0 0 5px black, 0 0 10px navy, 0 0 20px deeppink, 0 0 40px turquoise;
+  line-height: 20px;
+  border-spacing: 10px;
+}
+
+.contact-th {
+  font-family: Copperplate Gothic Light;
+  color: antiquewhite;
+  margin-left: 0px;
+  font-size: 14px;
+  text-shadow: 0 0 5px black, 0 0 10px navy, 0 0 20px deeppink, 0 0 40px turquoise;
+  line-height: 20px;
+  border-spacing: 10px;
+}
+
+
+.contact-td {
+  font-family: Copperplate Gothic Light;
+  color: antiquewhite;
+  margin-left: 0px;
+  font-size: 14px;
+  text-shadow: 0 0 5px black, 0 0 10px navy, 0 0 20px deeppink, 0 0 40px turquoise;
+  line-height: 20px;
+  border-spacing: 10px;
+}
+
+
+.table-card {
+  position: relative;
+  padding: 20px;
+  margin: 80px;
+  background-image: url("../Images/skyframe.png");
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  text-align: left;
+}
+
+
+.table-card:hover {
+  box-shadow: 0 0 500px black;
+  transform: translateY(-15px);
+}
+
+
+/* Products.html Section*/
+
+
+.products-background {
+  background-image: url("../Images/water.png");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  z-index: 0;
+  margin: 0;
+  background-attachment: fixed;
+}
+
+
+.Emberlyn {
+  width:100%;
+  height: 250px;
+  background-image: url("../Images/Emberlyn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+
+.Thistledrift {
+  width:100%;
+  height: 250px;
+  background-image: url("../Images/Thistledrift.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+
+.Brimthorn {
+  width:100%;
+  height: 250px;
+  background-image: url("../Images/Brimthorn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+
+.Luminara {
+  width:100%;
+  height: 250px;
+  background-image: url("../Images/Luminara.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+
+.Ashvine {
+  width:100%;
+  height: 250px;
+  background-image: url("../Images/Ashvine.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+
+.product-description {
+  font-family: Copperplate Gothic Light;
+  color: antiquewhite;
+  margin-left: 200px;
+  margin-top: -70px;
+  font-size: 14px;
+	text-shadow: 0 0 5px black, 0 0 10px navy, 0 0 20px deeppink, 0 0 40px turquoise;
+  line-height: 20px;
+}
+
+
+.product-card {
+  position: relative;
+  padding: 50px;
+  margin: 50px;
+  background-image: url("../Images/water.png");
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.product-card:hover {
+  box-shadow: 0 0 500px black;
+  transform: translateY(-15px);
+}
+
+
+.product-info {
+  position: relative;
+  z-index: 2;
+}
+
+
+.purchase-button {
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-family: "Copperplate Gothic Light";
+  font-size: 15px;
+  text-align: center;
+  border: none;
+  cursor: url("../Images/wand-link.png") 16 16, auto;
+  transition: transform 0.2s, box-shadow 0.2s;
+  height: 40px;
+  color:antiquewhite;
+}
+
+
+.purchase-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.8);
+}
+
+
+.pre-style { 
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+
+.product-card-correction {
+  margin-top: -100px;
+}
+
+
+/* Purchase Page */
+
+.purchase-table {
+  border: 1px solid black;
+  border-spacing: 10px;
+}
+
+.purchase-th {
+  border: 1px solid black;
+  border-spacing: 10px;
+}
+
+
+.purchase-td {
+  border: 1px solid black;
+  border-spacing: 10px;
+}
+
+
+.purchase-font {
+  font-family: Copperplate Gothic Light;
+  font-size: 20px;
+  color: black;
+}
+
+
+.purchase-Gabriola {
+  font-family: Gabriola;
+  color: black;
+  font-size: 20px;
+}
