@@ -20,10 +20,11 @@ Very minimal use of JavaScript.
 - GitHub Pages
 
 ## Live Website
-https://username.github.io/project-name/
+[https://forbiddenknowledge.github.io/GrowYourDragon/]
 
 ## Screenshots
 ![Homepage](Images/homepage.png)
 
 ## Author
+
 Trishna S. Marday – University Project From Module – CST0400 – 11th February 2026
