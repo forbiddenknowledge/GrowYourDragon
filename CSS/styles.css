@@ -91,11 +91,8 @@ h3 {
   background-image: url("../Images/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  position: center;
   padding-right: 2px;
   margin-top: -50px;
-  display: flex;
-  justify-content: center;
   position: fixed;
 }
 
@@ -213,7 +210,6 @@ h3 {
   font-family: Gabriola;
   color: antiquewhite;
   font-size: 20px;
-  padding-left: -20px;
   margin: 0;
   line-height: 1.2px;
 }
@@ -552,3 +548,4 @@ textarea {
   color: black;
   font-size: 20px;
 }
+
